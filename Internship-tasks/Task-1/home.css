@@ -1,0 +1,123 @@
+.heading
+{
+    color: #ffc107!important;
+    font-size: 30px!important;
+    font-weight: 700;
+    font-family: cursive;
+    
+}
+.linkk
+{
+    color: black!important;
+    font-size: larger!important;
+    font-weight: 400!important;
+
+}
+
+
+
+
+.ftext
+.work{
+    text-align: center;
+}
+.cool1 p{
+    color: rgb(179, 169, 169);
+   font-family: sans-serif;
+}
+
+.ccontainer
+{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+}
+.hcontainer {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    color: rgb(5, 5, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.pp
+{
+    padding-top: 2%;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5%;
+    color:#ffc107;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cool2 img{
+    height: 80vh;
+}
+@media  screen and (max-width:600px) {
+    .hcontainer
+    {
+        height: 50vh;
+    }
+    .cool2 img{
+        height: 400px;
+    }
+  
+
+
+}
+.ftext
+{
+    color: black;
+    font-weight: 500;
+}
+.linkk {
+    border-bottom: 1px solid #ffc107 ;
+    transition: border-bottom 0.3s ease; }
+
+.linkk:hover {
+    border-bottom: 3px solid #ffc107;
+}
+.cheading
+{
+    font-weight: 600;
+    color: #ffc107;
+}
+.btn1 {
+    font-size: larger !important;
+    padding: 10px 15px !important;
+    margin-right: 10px;
+    border-radius: 20px; 
+}
+
+.btn2 {
+    font-size: larger !important;
+    padding: 10px 15px !important;
+    margin-left: 10px; 
+    border-radius: 20px; 
+}
+
+.hcontainerh1{
+    color: #ffc107;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+@media  screen and (max-width:600px) {
+   .hcontainerh1
+   {
+    font-size: 40px;
+   }
+   .pp{
+    font-size: 30px;
+    
+   }
+  
+
+
+}

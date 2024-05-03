@@ -1,0 +1,331 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-brand{
+
+    font-weight: 600;
+}
+
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    border-bottom: 1px solid aqua;
+}
+
+section{
+    width: 100%;
+    height: auto;
+
+}
+
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+    max-width: 100%;
+    height: auto;
+}
+.banner-text
+{
+    position: absolute;
+    top:55%;
+    font-size: 40px;
+    left: 20%;
+    color: black;
+    font-weight: 600;
+}
+
+@media (max-width:992px) {
+    .banner-text{
+
+        font-size: 20px;
+    }
+
+    
+}
+@media (max-width:772px) {
+    .banner-text{
+
+        font-size: 16px;
+    }
+
+    
+}
+@media (max-width:576px) {
+    .banner-text{
+
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 0.6;
+    }
+
+    
+}
+@media (max-width:350px) {
+    .banner-text{
+
+        font-size: 9px;
+        font-weight: 600;
+        line-height: 0.3;
+    }
+
+    
+}
+/* About section */
+#about {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading styles */
+.heading {
+    background-color: aqua;
+    color: white;
+    height: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    right: 5%;
+    width: 70%;
+    transition: 2s linear;
+}
+
+/* Text styles */
+#its {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: 800;
+}
+
+#me {
+    margin-top: 4%;
+    margin-left: 15%;
+    color: black;
+    font-size: 25px;
+    line-height: 1.8;
+    margin-right: 3%;
+}
+
+/* Media queries for responsiveness in About section */
+@media (max-width: 778px) {
+    #me {
+        font-size: 29px;
+        line-height: 1.8;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 598px) {
+    #me {
+        font-size: 26px;
+        line-height: 1.8;
+    }
+}
+
+@media (max-width: 475px) {
+    #me {
+        font-size: 23px;
+        line-height: 1.8;
+    }
+}
+
+/* Additional media queries for further adjustments if needed */
+
+
+#skills
+{
+    height: auto;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+ 
+}
+.skillset{
+    margin:auto;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+#talent
+{
+    text-align: center;
+
+}
+.container
+{
+    display: grid;
+    gap: 15%;
+    grid-template-columns: repeat(auto-fit,minmax(270px, 1fr));
+}
+.box 
+{
+    padding:20px;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 5px;
+    background: black;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box img{
+    height: 150px;
+
+}
+.box h3{
+
+    color: aqua;
+    padding: 10px 0;
+    font-size: 40px;
+
+}
+.box:hover{
+   box-shadow: 0 10px 15px raba(0, 0, 0, 0.2);
+   transform: scale(1.03 );
+   background: white;
+}
+
+@media (max-width:770px) {
+    .skillset{
+        padding: 20px;
+    }
+    
+
+}
+@media (max-width:320px)
+{
+    .box{
+        margin-right: 6%;
+    }
+}
+
+@media (max-width:770px) {
+    
+    .box img{
+        height: 70px;
+
+    }
+    .box h3{
+
+        color: aqua;
+        padding: 10px 0;
+        font-size: 20px;
+    
+    }
+}
+
+#project{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel{
+    width: 80%;
+    height: 80vh;
+    background: white;
+}
+.carousel img{
+    width: 100%;
+    height: 80vh;
+}
+.work{
+    text-align: center;
+}
+@media  screen and (max-width:600px) {
+    .carousel{
+        width: 90%;
+        height: 50vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .carousel img{
+        width: 100%;
+        height: 50vh;
+    }
+     
+}
+
+
+#group
+
+{
+    width: 100%;
+    
+    height: 33vh;
+    background-color: black;
+}
+#contact
+
+{
+    width: 100%;
+    
+    height: auto;
+    padding-top:7%;
+    
+    background-color: black;
+}
+
+label{
+    color: aqua;
+}
+
+@media (max-width:770px)
+{
+    #map
+    {
+        margin-top: 5%;
+    }
+}
+
+.footercontainer
+{
+    display: flex;
+    justify-content: center;
+   
+}
+.socialicon
+{
+    display: flex;
+    justify-content: center;
+}
+.socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicon a:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+.socialicon a:hover{
+  
+    
+    transition: 0.5s;
+}
+.footerbottom
+{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+
+}
+
+
